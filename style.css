@@ -76,6 +76,12 @@ body {
     width: 70%;
 }
 
+@media (max-width: 991px) { /* MD breakpoint (Bootstrap standard) */
+    .nav-link:hover::after,
+    .nav-link.active::after {
+        width: 100%;
+    }
+}
 .btn-hire {
     background: var(--gradient);
     color: white;
